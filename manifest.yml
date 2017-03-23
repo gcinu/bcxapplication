@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bcxapplication
+  host: bcxapplication
+  disk_quota: 1024M
+  services:
+  - bcxapplication-cloudantNoSQLDB
+  - bcxapplication-iotf-service
